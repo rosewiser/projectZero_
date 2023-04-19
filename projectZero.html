@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Project_Zero</title>
+    <script>
+        // 이벤트를 연결.
+        window.onload = function () {
+            // 문서 객체를 선택.
+            var headers = document.querySelectorAll('h1');
+
+            for (var i = 0; i < headers.length; i++) {
+                // 변수를 선언.
+                var header = headers[i];
+
+                // 문서 객체를 조작.
+                header.style.color = 'orange';
+                header.style.background = 'red';
+                header.innerHTML = 'Project Zero with Git!';
+            }
+        };
+    </script>
+</head>
+<body>
+    <h1>Header 이 문자열이 출력되는가 ? </h1>
+    <h1>  </h1>
+    <h1>  </h1>
+<h1> 개발자 : YuJin.Lee </h1>
+</body>
+</html>
